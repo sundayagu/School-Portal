@@ -1,0 +1,82 @@
+/* this is a custom css stylesheet */
+body{
+	padding: 70px;
+}
+
+footer{
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+	font-style: italic;
+}
+
+.glyphicon{
+	color: #3F2B22;
+}
+
+.glyphicon-circle-arrow-right{
+	color: #FFA500;
+}
+
+.pull-right.img-responsive{
+	margin: 0 0 1em 1em;
+}
+
+.pull-left{
+	margin: 0 1em 0 0;
+}
+
+.btn-info{
+	/* background-color: #cdae51; */
+	background-color: #3300cc;
+	border-color: #3F2B22;
+	color: #FFFF00;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  /* background-color: #FFA500; */
+  background-color: #000000;
+  border-color: #333;
+  border-color: #FFFF00;
+}
+
+.breadcrumb > li + li:before {
+  content: none;
+}
+
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+
+.tab-pane{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+	padding-bottom: 4.8em;
+}
+
+.active .glyphicon{
+	color: #FFA500;
+}
+
+.selected{padding-left: 1em; list-style: square;font-weight: bold;}
